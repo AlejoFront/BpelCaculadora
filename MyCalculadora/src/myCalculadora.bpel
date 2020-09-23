@@ -53,7 +53,7 @@
                 <sequence name="Sequence3">
                     <assign name="Assign3">
                         <copy>
-                            <from>$MultiplicationOperationIn.part1/ns0:param01 * $MultiplicationOperationIn.part1/ns0:param02</from>
+                            <from>number($MultiplicationOperationIn.part1/ns0:param01 * $MultiplicationOperationIn.part1/ns0:param02)</from>
                             <to>$MultiplicationOperationOut.part1/ns0:response01</to>
                         </copy>
                     </assign>

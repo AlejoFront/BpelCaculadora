@@ -2,7 +2,7 @@
   <soapenv:Body>
     <myc:myInput>
       <myc:param01>15</myc:param01>
-      <myc:param02>0</myc:param02>
+      <myc:param02>3</myc:param02>
     </myc:myInput>
   </soapenv:Body>
 </soapenv:Envelope>
