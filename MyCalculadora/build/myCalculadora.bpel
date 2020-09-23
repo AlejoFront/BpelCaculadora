@@ -31,7 +31,7 @@
                 <sequence name="Sequence1">
                     <assign name="Assign1">
                         <copy>
-                            <from>$AdditionOperationIn.part1/ns0:param01 + $AdditionOperationIn.part1/ns0:param02</from>
+                            <from>number($AdditionOperationIn.part1/ns0:param01 + $AdditionOperationIn.part1/ns0:param02)</from>
                             <to>$AdditionOperationOut.part1/ns0:response01</to>
                         </copy>
                     </assign>
